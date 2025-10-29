@@ -121,7 +121,7 @@ lang: ru
 
 ## Материалы по теме
 
-* [Мини-приложения — Панель управления](mini-apps/settings/overview)
+* [Мини-приложения — Панель управления](./overview.md)
 
 * [Раздел «Оформление»](mini-apps/settings/general/design)
 

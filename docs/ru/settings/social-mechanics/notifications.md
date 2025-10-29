@@ -18,7 +18,7 @@ lang: ru
 
 ## Как открыть
 
-[Откройте панель управления мини-приложением](mini-apps/settings/overview) и в меню слева выберите **Соц.механики&nbsp;&rarr; Уведомления**.
+[Откройте панель управления мини-приложением](../overview.md) и в меню слева выберите **Соц.механики&nbsp;&rarr; Уведомления**.
 
 ## Как выглядит
 
@@ -99,4 +99,4 @@ exclusions/_images/mini-apps/settings/social-mechanics/notifications/inactive_us
 
 * [Продвижение | Уведомления](mini-apps/promotion/social-mechanics/notifications/overview)
 
-* [Мини-приложения — Панель управления](mini-apps/settings/overview)
+* [Мини-приложения — Панель управления](../overview.md)

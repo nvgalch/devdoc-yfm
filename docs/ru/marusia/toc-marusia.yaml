@@ -1,0 +1,34 @@
+- name: Маруся
+  items:
+    - name: Быстрый старт
+      href: marusia/getting-started.md
+    - name: Схема взаимодействия со скиллом
+      href: marusia/api.md
+    - name: Формат текста для синтеза речи
+      href: marusia/tts.md
+    - name: Разметка SSML
+      href: marusia/ssml.md
+    - name: Вставка звуков в TTS
+      href: marusia/sound.md
+    - name: Карточки
+      href: marusia/cards.md
+    - name: Виджеты
+      href: marusia/widgets.md
+    - name: Команды
+      href: marusia/commands.md
+    - name: Загрузка изображений и аудио по API
+      href: marusia/media-api.md
+    - name: Плеер
+      href: marusia/player.md
+    - name: Отладка
+      href: marusia/debugging.md
+    - name: Ссылка на навык
+      href: marusia/deep-link.md
+    - name: Push-уведомления
+      href: marusia/notifications.md
+    - name: Подключение монетизации
+      href: marusia/monetization.md
+    - name: Хранение состояния
+      href: marusia/session-state.md
+    - name: Модерация скилла
+      href: marusia/moderation.md

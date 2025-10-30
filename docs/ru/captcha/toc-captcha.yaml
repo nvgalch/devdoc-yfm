@@ -1,0 +1,32 @@
+  - name: VK ID Captcha
+    items:
+      - name: О VK ID Captcha
+        href: vkcaptcha/overview
+      - name: Web
+        items:
+          - name: Общее описание
+            href: vkcaptcha/web/overview
+          - name: Подключение
+            href: vkcaptcha/web/autointegration
+          - name: Сценарий взаимодействия
+            href: vkcaptcha/web/scenario
+      - name: iOS
+        items:
+          - name: Общее описание
+            href: vkcaptcha/iOS/overview
+          - name: Подключение
+            href: vkcaptcha/iOS/integration
+          - name: Сценарий взаимодействия
+            href: vkcaptcha/iOS/scenario
+      - name: Android
+        items:
+          - name: Общее описание
+            href: vkcaptcha/Android/overview
+          - name: Подключение и автообработка капчи
+            href: vkcaptcha/Android/integration
+          - name: Ручная обработка капчи
+            href: vkcaptcha/Android/integration_manual
+          - name: Сценарий взаимодействия
+            href: vkcaptcha/Android/scenario
+          - name: Справочник SDK
+            href: vkcaptcha/Android/guide

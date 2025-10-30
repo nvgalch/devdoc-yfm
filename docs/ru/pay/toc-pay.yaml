@@ -1,0 +1,54 @@
+- name: VK Pay
+  items:
+    - name: O VK Pay
+      href: pay/getting-started.md
+    - name: Подключение
+      href: pay/connection.md
+    - name: Платёжное окно
+      items:
+        - name: Общее описание
+          href: pay/payment-form/general-description.md
+        - name: Для плательщиков
+          href: pay/payment-form/payment-form-for-users.md
+        - name: Для разработчиков
+          items:
+            - name: Общее описание
+              href: pay/payment-form/payment-form-for-developers.md
+            - name: Как сделать платёж
+              href: pay/payment-form/payment-form-for-developers/payment-create.md
+            - name: Подпись продавца
+              href: pay/payment-form/payment-form-for-developers/merchant-sign-calculation.md
+            - name: Подпись приложения
+              href: pay/payment-form/payment-form-for-developers/app-sign-calculation.md
+            - name: Обработка ошибок
+              href: pay/payment-form/payment-form-for-developers/errors.md
+            - name: Результат платежа
+              href: pay/payment-form/payment-form-for-developers/payment-status.md
+            - name: Тестирование платёжного окна
+              href: pay/payment-form-for-developers/payment-form/testing.md
+    - name: API платёжной системы
+      items:
+        - name: Общее описание
+          href: pay/seller/general-description.md
+        - name: Запрос
+          items:
+            - name: Как отправить
+              href: pay/seller/request-create.md
+            - name: Подпись запроса
+              href: pay/seller/request-create/request-sign-creating.md
+            - name: Ошибки запроса
+              href: pay/seller/request-create/errors.md
+        - name: Ответ
+          items:
+            - name: Формат ответа
+              href: pay/seller/response.md
+            - name: Подпись ответа
+              href: pay/seller/response/sign.md
+        - name: Уведомления
+          href: pay/seller/notifications.md
+        - name: Отмена и возврат платежа
+          href: pay/seller/refunds.md
+        - name: Проверка статуса транзакции
+          href: pay/seller/transaction-status.md
+        - name: Запрос информации о транзакции
+          href: pay/seller/transaction-get.md

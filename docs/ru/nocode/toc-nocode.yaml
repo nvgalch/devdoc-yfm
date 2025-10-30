@@ -1,0 +1,30 @@
+- name: Приложения без кода
+  items:
+    - name: Обзор
+      href: no-code-apps/overview.md
+    - name: Как создать
+      href: no-code-apps/create.md
+    - name: Как запустить и продвигать
+      href: no-code-apps/promotion.md
+    - name: Как обрабатывать заявки
+      href: no-code-apps/orders.md
+    - name: Как сообщить пользователям об изменениях в работе
+      href: no-code-apps/notifying-users-on-changes.md
+    - name: Панель управления
+      items:
+        - name: Обзор
+          href: no-code-apps/settings/overview.md
+        - name: Настройки
+          href: no-code-apps/settings/general.md
+        - name: Контент
+          href: no-code-apps/settings/contents.md
+        - name: Публикация
+          href: no-code-apps/settings/publishing.md
+        - name: Администраторы
+          href: no-code-apps/settings/managers.md
+        - name: Заявки
+          href: no-code-apps/settings/orders.md
+        - name: Редактор изображений
+          href: no-code-apps/settings/image-editor.md
+    - name: Поддержка
+      href: no-code-apps/support.md

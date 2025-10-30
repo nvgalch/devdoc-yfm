@@ -1,0 +1,405 @@
+- name: Мини-приложения
+  items:
+    - name: Обзор
+      href: mini-apps/overview.md
+    - name: Начало работы
+      items:
+        - name: Первые шаги
+          href: mini-apps/getting-started.md
+        - name: Советы по созданию и продвижению
+          href: mini-apps/catalog/advice.md
+        - name: Примеры проектов
+          items:
+            - name: Все примеры
+              href: mini-apps/examples.md
+            - name: Пример «Магазин»
+              href: mini-apps/examples/shop.md
+        - name: Пакет create-vk-mini-app
+          href: mini-apps/getting-started/create-vk-mini-app.md
+    - name: Видеокурс
+      items:
+        - name: Обзор
+          href: mini-apps/learning/course.md
+        - name: Модуль 1. Знакомство
+          items:
+            - name: Обзор
+              href: mini-apps/learning/course/1-intro.md
+            - name: 1. Платформа VK Mini Apps
+              href: mini-apps/learning/course/1-intro/1-platform.md
+            - name: 2. Процесс создания мини-приложения
+              href: mini-apps/learning/course/1-intro/2-create-app.md
+            - name: 3. Формируем команду для создания мини-приложений
+              href: mini-apps/learning/course/1-intro/3-dev-team.md
+        - name: Модуль 2. Выбор идеи
+          items:
+            - name: Обзор
+              href: mini-apps/learning/course/2-idea.md
+            - name: 1. Виды мини-приложений
+              href: mini-apps/learning/course/2-idea/1-app-types.md
+            - name: 2. Социальные механики
+              href: mini-apps/learning/course/2-idea/2-mechanics.md
+            - name: 3. Поиск идеи мини-приложения
+              href: mini-apps/learning/course/2-idea/3-idea-search.md
+            - name: 4. Анализ рынка
+              href: mini-apps/learning/course/2-idea/4-analysis.md
+            - name: 5. Тестирование идей
+              href: mini-apps/learning/course/2-idea/5-testing.md
+        - name: Модуль 3. Дизайн
+          items:
+            - name: Обзор
+              href: mini-apps/learning/course/3-design.md
+            - name: 1. Этапы создания дизайна мини-приложения
+              href: mini-apps/learning/course/3-design/1-steps.md
+            - name: 2. Построение пути пользователя
+              href: mini-apps/learning/course/3-design/2-user-flow.md
+            - name: 3. Создание прототипа
+              href: mini-apps/learning/course/3-design/3-prototype.md
+            - name: 4. Дизайн UI мини-приложения
+              href: mini-apps/learning/course/3-design/4-ui.md
+            - name: 5. Аналитика и исследования
+              href: mini-apps/learning/course/3-design/5-analytics.md
+            - name: 6. Дизайн-поддержка
+              href: mini-apps/learning/course/3-design/6-design-support.md
+        - name: Модуль 4. Разработка
+          items:
+            - name: Обзор
+              href: mini-apps/learning/course/4-development.md
+            - name: 1. Создание и регистрация мини-приложения
+              href: mini-apps/learning/course/4-development/1-create-and-register-app.md
+            - name: 2. Знакомство с VKUI
+              href: mini-apps/learning/course/4-development/2-vkui.md
+            - name: 3. Роутинг
+              href: mini-apps/learning/course/4-development/3-navigation.md
+            - name: 4. Модальные окна
+              href: mini-apps/learning/course/4-development/4-modal-windows.md
+            - name: 5. Основы работы с VK Bridge
+              href: mini-apps/learning/course/4-development/5-bridge.md
+            - name: 6. Подписка на события VK Bridge и их особенности
+              href: mini-apps/learning/course/4-development/6-subscribe.md
+            - name: 7. Вёрстка под vk.com и m.vk.com
+              href: mini-apps/learning/course/4-development/7-vkui-adaptivity.md
+            - name: 8. Работа с внешним API
+              href: mini-apps/learning/course/4-development/8-working-with-backend.md
+            - name: 9. Авторизация запросов к серверу мини-приложения
+              href: mini-apps/learning/course/4-development/9-request-auth.md
+            - name: 10. ODR
+              href: mini-apps/learning/course/4-development/10-odr.md
+            - name: 11. Работа с API ВКонтакте в клиентской части приложения
+              href: mini-apps/learning/course/4-development/11-working-with-vk-api.md
+            - name: 12. Особенности разработки для мобильных устройств
+              href: mini-apps/learning/course/4-development/12-mobile-devices.md
+            - name: 13. Уведомления
+              href: mini-apps/learning/course/4-development/13-notifications.md
+            - name: 14. Работа с VK Картами
+              href: mini-apps/learning/course/4-development/14-maps.md
+            - name: 15. Онбординг
+              href: mini-apps/learning/course/4-development/15-onboarding.md
+            - name: 16. Работа с VK Storage
+              href: mini-apps/learning/course/4-development/16-storage.md
+            - name: 17. Шаринг из приложения
+              href: mini-apps/learning/course/4-development/17-sharing.md
+            - name: 18. Счётчики и бейджи
+              href: mini-apps/learning/course/4-development/18-counters.md
+            - name: 19. Эффективная работа с API ВКонтакте
+              href: mini-apps/learning/course/4-development/19-effective-work-with-api.md
+            - name: 20. Заключение
+              href: mini-apps/learning/course/4-development/20-conclusion.md
+        - name: Модуль 5. Тестирование
+          items:
+            - name: Обзор
+              href: mini-apps/learning/course/5-testing.md
+            - name: '1. Планирование тестирования: выявление приоритетов'
+              href: mini-apps/learning/course/5-testing/1-plan-priority.md
+            - name: '2. Планирование тестирования: определение сценариев'
+              href: mini-apps/learning/course/5-testing/2-plan-scenario.md
+            - name: 3. Тестирование требований
+              href: mini-apps/learning/course/5-testing/3-requirement-test.md
+            - name: 4. Инструменты тестирования и отладки
+              href: mini-apps/learning/course/5-testing/4-test-tools.md
+            - name: 5. Нагрузочное тестирование
+              href: mini-apps/learning/course/5-testing/5-stress-test.md
+            - name: 6. Чек-лист тестирования
+              href: mini-apps/learning/course/5-testing/6-check-list.md
+            - name: 7. Тестирование ODR в VK Mini Apps
+              href: mini-apps/learning/course/5-testing/7-odr-test.md
+            - name: 8. Когда закончить тестирование
+              href: mini-apps/learning/course/5-testing/8-test-finish.md
+            - name: 9. Тестирование на локальном хосте
+              href: mini-apps/learning/course/5-testing/9-local-test.md
+            - name: 10. Безопасность мини-приложений
+              href: mini-apps/learning/course/5-testing/10-mini-app-security.md
+            - name: 11. Тестирование новых версий
+              href: mini-apps/learning/course/5-testing/11-new-version-test.md
+        - name: Модуль 6. Модерация
+          items:
+            - name: Обзор
+              href: mini-apps/learning/course/6-moderation.md
+            - name: 1. Виды модерации
+              href: mini-apps/learning/course/6-moderation/1-types.md
+            - name: 2. Подготовка к модерации в каталог
+              href: mini-apps/learning/course/6-moderation/2-preparing.md
+            - name: 3. Правила публикации в каталоге
+              href: mini-apps/learning/course/6-moderation/3-rules.md
+            - name: 4. Процесс модерации
+              href: mini-apps/learning/course/6-moderation/4-process.md
+            - name: 5. Ответы на вопросы
+              href: mini-apps/learning/course/6-moderation/5-faq.md
+        - name: Модуль 7. Монетизация
+          items:
+            - name: Обзор
+              href: mini-apps/learning/course/7-monetization.md
+            - name: '1. Реклама: особенности и правила использования'
+              href: mini-apps/learning/course/7-monetization/1-ad-features.md
+            - name: '2. Реклама: подключение в мини-приложении'
+              href: mini-apps/learning/course/7-monetization/2-ad-implementation.md
+            - name: 3. Продажа виртуальных ценностей за голоса
+              href: mini-apps/learning/course/7-monetization/3-virtual-goods.md
+            - name: '4. Продажа виртуальных ценностей: реализация взаимодействия'
+              href: mini-apps/learning/course/7-monetization/4-virtual-goods-selling.md
+            - name: '5. Продажа виртуальных ценностей: разовая оплата и подписки'
+              href: mini-apps/learning/course/7-monetization/5-virtual-goods-payments.md
+            - name: '6. Продажа цифровых и физических товаров: особенности и правила'
+              href: mini-apps/learning/course/7-monetization/6-digital-and-physical-goods.md
+            - name: '7. Продажа цифровых и физических товаров: реализация'
+              href: mini-apps/learning/course/7-monetization/7-digital-and-physical-goods-selling.md
+            - name: 8. Вывод средств из мини-приложения
+              href: mini-apps/learning/course/7-monetization/8-withdrawal.md
+            - name: 9. Заключение
+              href: mini-apps/learning/course/7-monetization/9-conclusion.md
+        - name: Модуль 8. Продвижение
+          items:
+            - name: Обзор
+              href: mini-apps/learning/course/8-promotion.md
+            - name: 1. Эффективные коммуникации с аудиторией
+              href: mini-apps/learning/course/8-promotion/1-communication.md
+            - name: 2. Как бесплатно привлечь новую аудиторию
+              href: mini-apps/learning/course/8-promotion/2-new-audience.md
+            - name: 3. Как удержать активную аудиторию
+              href: mini-apps/learning/course/8-promotion/3-active-audience.md
+            - name: 4. Принципы запуска рекламной кампании
+              href: mini-apps/learning/course/8-promotion/4-ad-campaign-principles.md
+            - name: 5. Что нужно сделать до запуска продвижения
+              href: mini-apps/learning/course/8-promotion/5-before-starting.md
+            - name: 6. Главное в продвижении мини-приложений
+              href: mini-apps/learning/course/8-promotion/6-main.md
+    - name: Поддержка разработчиков
+      items:
+        - name: Обзор
+          href: mini-apps/developer-support.md
+        - name: Q&A-сессии
+          href: mini-apps/developer-support/q-n-a-sessions.md
+        - name: Образовательные курсы в Lerna
+          href: mini-apps/developer-support/lerna-courses.md
+    - name: Разработка
+      items:
+        - name: Установка ПО
+          href: mini-apps/software-installation.md
+        - name: Библиотека VK Bridge
+          href: mini-apps/bridge.md
+        - name: Запуск
+          items:
+            - name: Параметры запуска
+              items:
+                - name: Список параметров
+                  href: mini-apps/development/launch-params.md
+                - name: Значения параметра vk_ref
+                  href: mini-apps/development/launch-params/vk_ref.md
+            - name: Подпись параметров запуска
+              href: mini-apps/development/launch-params-sign.md
+            - name: Запуск в iframe и WebView
+              href: mini-apps/development/iframe-webview.md
+            - name: Экран запуска приложения
+              href: mini-apps/development/lottie.md
+            - name: Работа кеша приложений
+              href: mini-apps/development/cache.md
+        - name: Управление группами тестировщиков
+          href: mini-apps/development/testing.md
+        - name: Пиксель
+          items:
+            - name: Обзор
+              href: mini-apps/development/pixel/overview.md
+            - name: Работа с пикселем
+              href: mini-apps/development/pixel/pixel-work.md
+            - name: Размещение пикселя
+              href: mini-apps/development/pixel/pixel-placement.md
+            - name: Настройка ретаргетинга по событиям на сайте
+              href: mini-apps/development/pixel/retargeting-setup.md
+            - name: Работа с аудиториями
+              href: mini-apps/development/pixel/audience-work.md
+            - name: Отслеживание конверсий с помощью пикселя
+              items:
+                - name: Обзор
+                  href: mini-apps/development/pixel/conversion-tracking/overview.md
+                - name: Подключение отслеживания конверсии
+                  href: mini-apps/development/pixel/conversion-tracking/connection.md
+                - name: Проверка, что событие установлено корректно
+                  href: mini-apps/development/pixel/conversion-tracking/view-connection.md
+            - name: FAQ
+              href: mini-apps/development/pixel/faq.md
+        - name: Информационные экраны
+          href: mini-apps/development/information-screens.md
+        - name: Интеграция в мессенджер
+          items:
+            - name: Обзор
+              href: mini-apps/development/integration-into-messenger/overview.md
+            - name: Требования к мини-приложениям
+              href: mini-apps/development/integration-into-messenger/criteria.md
+            - name: Как интегрировать мини-приложение
+              href: mini-apps/development/integration-into-messenger/how-to-add.md
+        - name: Интеграция звонков
+          href: mini-apps/development/calls-integration.md
+        - name: Отладка
+          href: mini-apps/development/debugging.md
+        - name: API-вызовы
+          href: mini-apps/development/api-calls.md
+        - name: Совместная разработка
+          href: mini-apps/development/collaboration.md
+        - name: Хостинг статики
+          items:
+            - name: Обзор
+              href: mini-apps/development/hosting/overview.md
+            - name: Файл vk-hosting-config.json
+              href: mini-apps/development/hosting/config-file.md
+            - name: Добавление файлов на хостинг из автоматических сборок
+              href: mini-apps/development/hosting/ci.md
+        - name: Проверка подлинности данных
+          href: mini-apps/development/protect-with-signature.md
+        - name: Аутентификация с помощью биометрии
+          href: mini-apps/development/biometrics-authentication.md
+        - name: Перевод на другой язык
+          href: mini-apps/development/translate.md
+        - name: Обработка ссылок, предоставляемых пользователями
+          href: mini-apps/development/user-defined-links.md
+        - name: Особенности размещения на iOS
+          href: mini-apps/moderation-for-ios.md
+    - name: Плагины для сообществ
+      items:
+        - name: Обзор
+          href: mini-apps/development/community-apps.md
+        - name: Создание и настройка
+          href: mini-apps/development/community-apps/creating-and-settings.md
+        - name: Добавление в сообщество
+          href: mini-apps/development/community-apps/how-to-add.md
+    - name: Создание мини-приложений из сайтов
+      items:
+        - name: Обзор
+          href: mini-apps/create-from-site/overview.md
+        - name: Craftum
+          href: mini-apps/create-from-site/craftum.md
+        - name: Марквиз
+          href: mini-apps/create-from-site/marquiz.md
+        - name: Tilda
+          href: mini-apps/create-from-site/tilda.md
+        - name: Общие шаги (для любого конструктора)
+          href: mini-apps/create-from-site/common-steps.md
+    - name: Публикация
+      items:
+        - name: Каталог ВКонтакте
+          items:
+            - name: Обзор
+              href: mini-apps/catalog/getting-started.md
+            - name: Как попасть в каталог
+              href: mini-apps/catalog/moderation.md
+            - name: Работа с баг-трекером
+              items:
+                - name: Обзор
+                  href: mini-apps/catalog/bugtracker/overview.md
+                - name: Добавление участников
+                  href: mini-apps/catalog/bugtracker/add-members.md
+                - name: Обработка отчётов
+                  href: mini-apps/catalog/bugtracker/reports.md
+                - name: Добавление новой версии
+                  href: mini-apps/catalog/bugtracker/new-version.md
+        - name: Одноклассники
+          href: mini-apps/publishing/other-platforms/odnoklassniki.md
+    - name: Продвижение
+      items:
+        - name: Подборки в каталогах
+          href: mini-apps/promotion/featured.md
+        - name: Рекламные объявления
+          href: mini-apps/promotion/ad.md
+        - name: Социальные механики
+          items:
+            - name: Обзор
+              href: mini-apps/promotion/social-mechanics/overview.md
+            - name: Сообщения от сообщества
+              href: mini-apps/promotion/social-mechanics/messages.md
+            - name: Поделиться в сообщении
+              href: mini-apps/promotion/social-mechanics/share.md
+            - name: Сниппеты мини-приложений
+              href: mini-apps/promotion/social-mechanics/snippets.md
+            - name: Истории в профиле пользователя
+              href: mini-apps/promotion/social-mechanics/stories.md
+            - name: Рекомендации пользователей
+              href: mini-apps/promotion/social-mechanics/user-recommendation.md
+        - name: Уведомления
+          items:
+            - name: Обзор
+              href: mini-apps/promotion/social-mechanics/notifications/overview.md
+            - name: Разовые
+              href: mini-apps/promotion/social-mechanics/notifications/single.md
+            - name: Неактивным пользователям
+              href: mini-apps/promotion/social-mechanics/notifications/automatic.md
+            - name: Всем пользователям
+              href: mini-apps/promotion/social-mechanics/notifications/mass.md
+        - name: Бейдж New
+          href: mini-apps/badges/new.md
+    - name: Монетизация
+      items:
+        - name: Обзор
+          href: mini-apps/monetization/overview.md
+        - name: Продажа товаров
+          href: mini-apps/monetization/payments.md
+        - name: Реклама в мини-приложениях
+          items:
+            - name: Обзор
+              href: mini-apps/monetization/ad/overview.md
+            - name: Как добавить рекламу в мини-приложение
+              href: mini-apps/monetization/ad/implementation.md
+            - name: Баннерная реклама
+              href: mini-apps/monetization/ad/banners.md
+            - name: Рекомендации по показу рекламы
+              href: mini-apps/monetization/ad/recommendations.md
+        - name: Вывод средств
+          items:
+            - name: Обзор
+              href: mini-apps/monetization/withdrawal/overview.md
+            - name: Юрлица и ИП — Россия
+              href: mini-apps/monetization/withdrawal/ru-companies.md
+            - name: Самозанятые — Россия
+              href: mini-apps/monetization/withdrawal/ru-self-employed.md
+            - name: Физические лица — Россия
+              href: mini-apps/monetization/withdrawal/ru-individuals.md
+            - name: Зарубежные авторы
+              href: mini-apps/monetization/withdrawal/foreign-companies.md
+    - include: { path: mini-apps/settings/toc-settings.yaml }
+    - name: Глоссарий
+      href: mini-apps/glossary.md
+    - name: Архив
+      items:
+        - name: Старая панель управления
+          items:
+            - name: Обзор
+              href: mini-apps/management/overview.md
+            - name: Создание новых приложений
+              href: mini-apps/management/creating-new-apps.md
+            - name: Информация
+              href: mini-apps/management/information.md
+            - name: Настройки
+              href: mini-apps/management/settings.md
+            - name: Хранимые процедуры
+              href: mini-apps/management/procedures.md
+            - name: Статистика
+              href: mini-apps/management/statistics.md
+            - name: Платежи
+              href: mini-apps/management/payments.md
+            - name: Руководство
+              href: mini-apps/management/admin.md
+            - name: Тестирование
+              href: mini-apps/management/testing.md
+            - name: Модерация
+              href: mini-apps/management/moderation.md
+            - name: Уведомления
+              href: mini-apps/management/notifications.md
+            - name: Помощь
+              href: mini-apps/management/support.md

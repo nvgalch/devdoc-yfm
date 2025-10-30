@@ -1,0 +1,90 @@
+- name: VK Карты
+  items:
+    - name: Общая информация
+      items:
+        - name: О VK Картах
+          href: vkmaps/general-information/general.md
+        - name: Использование API VK Карт
+          href: vkmaps/general-information/api-key.md
+    - name: Сервисы отображения карт
+      items:
+        - name: Maps SDK для Web (JavaScript)
+          items:
+            - name: Общая информация
+              href: vkmaps/map-display-services/javascript-sdk/about.md
+            - name: Быстрый старт
+              href: vkmaps/map-display-services/javascript-sdk/quickstart.md
+            - name: Карта
+              items:
+                - name: Объект Map
+                  href: vkmaps/map-display-services/javascript-sdk/map.md
+                - name: Методы a...h
+                  href: vkmaps/map-display-services/javascript-sdk/map/methods-a-h.md
+                - name: Методы i...r
+                  href: vkmaps/map-display-services/javascript-sdk/map/methods-i-r.md
+                - name: Методы s...z
+                  href: vkmaps/map-display-services/javascript-sdk/map/methods-s-z.md
+                - name: События
+                  href: vkmaps/map-display-services/javascript-sdk/map/events.md
+            - name: Свойства и опции
+              href: vkmaps/map-display-services/javascript-sdk/options.md
+            - name: Метки и элементы управления
+              href: vkmaps/map-display-services/javascript-sdk/labels-controls.md
+            - name: География и геометрия
+              href: vkmaps/map-display-services/javascript-sdk/geometry.md
+            - name: Handlers (обработчики)
+              href: vkmaps/map-display-services/javascript-sdk/handlers.md
+            - name: Sources (источники)
+              href: vkmaps/map-display-services/javascript-sdk/sources.md
+            - name: Events (события)
+              href: vkmaps/map-display-services/javascript-sdk/events.md
+            - name: Использование в React-приложениях
+              href: vkmaps/map-display-services/javascript-sdk/react.md
+            - name: Объединение точек в кластеры
+              href: vkmaps/map-display-services/javascript-sdk/cluster.md
+            - name: Добавление объектов с использованием GeoJSON
+              href: vkmaps/map-display-services/javascript-sdk/geojson.md
+            - name: Описание дополнительных объектов карты
+              href: vkmaps/map-display-services/javascript-sdk/additional-objects.md
+        - name: Maps SDK для Android
+          href: vkmaps/maps-mobile-sdk/android.md
+        - name: Maps SDK для iOS
+          href: vkmaps/maps-mobile-sdk/ios.md
+        - name: Статичная карта
+          href: vkmaps/map-display-services/static-map.md
+        - name: Стили карт
+          href: vkmaps/map-display-services/map-styles.md
+    - name: Сервисы маршрутизации
+      items:
+        - name: Построение маршрута
+          items:
+            - name: Обзор
+              href: vkmaps/routing/direction.md
+            - name: Costing options
+              href: vkmaps/routing/directions/costing-options.md
+            - name: Пример ответа
+              href: vkmaps/routing/directions/response-example.md
+            - name: Декодирование ломаной маршрута
+              href: vkmaps/routing/decode-polyline.md
+        - name: Оптимальный маршрут
+          href: vkmaps/routing/optimal-route.md
+        - name: Матрица достижимости
+          href: vkmaps/routing/distance-matrix.md
+        - name: Область достижимости
+          href: vkmaps/routing/iso.md
+        - name: Профиль высот
+          href: vkmaps/additional-services/elevation.md
+    - name: Сервисы поиска и геокодирования
+      items:
+        - name: Подсказчик
+          href: vkmaps/search-and-geocoding/suggest.md
+        - name: Поиск мест интереса
+          href: vkmaps/search-and-geocoding/places.md
+        - name: Геокодирование
+          href: vkmaps/search-and-geocoding/geocoding.md
+        - name: Поиск по IP
+          href: vkmaps/additional-services/ip2geo.md
+        - name: Определение часового пояса
+          href: vkmaps/additional-services/timezone.md
+        - name: Поиск по почтовому индексу
+          href: vkmaps/additional-services/postcode.md

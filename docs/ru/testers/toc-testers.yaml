@@ -1,0 +1,171 @@
+- name: VK Testers
+  items:
+    - name: Обзор
+      href: vk-testers/overview.md
+    - name: Устройство платформы
+      items:
+        - name: Компания
+          href: vk-testers/company.md
+        - name: Продукт
+          href: vk-testers/product.md
+        - name: Участники VK Testers
+          href: vk-testers/members.md
+        - name: Сотрудники
+          href: vk-testers/employees.md
+    - name: Как протестировать продукт
+      href: vk-testers/how-to-test.md
+    - name: Открытый API
+      items:
+        - name: Обзор
+          href: vk-testers/api.md
+        - name: Ключи доступа
+          href: vk-testers/access-tokens.md
+        - name: Публикация обновлений
+          href: vk-testers/product-versions.md
+        - name: Публикация сборок
+          href: vk-testers/product-builds.md
+
+- name: Интеграция
+  items:
+    - name: Виджеты
+      items:
+        - name: Виджеты для сайтов
+          href: widgets/overview.md
+        - name: Видео
+          href: widgets/video.md
+        - name: Закладки
+          href: widgets/bookmarks.md
+        - name: Запись на стене
+          href: widgets/post.md
+        - name: Комментарии
+          href: widgets/comments.md
+        - name: Напишите нам
+          href: widgets/contact-us.md
+        - name: Нравится
+          href: widgets/like.md
+        - name: Опрос
+          href: widgets/poll.md
+        - name: Плейлист
+          href: widgets/playlist.md
+        - name: Подписаться на автора
+          href: widgets/subscribe.md
+        - name: Приложение
+          href: widgets/app.md
+        - name: Публикация ссылок
+          href: widgets/share.md
+        - name: Разрешить сообщения от сообщества
+          href: widgets/allow-messages-from-community.md
+        - name: Рекомендации
+          href: widgets/recommended.md
+        - name: Сообщения сообщества
+          href: widgets/community-messages.md
+        - name: Сообщества
+          href: widgets/group.md
+        - name: Статья
+          href: widgets/article.md
+        - name: Эпизод подкаста
+          href: widgets/podcast.md
+    - name: Публикации
+      items:
+        - name: Публикации ВКонтакте
+          href: api/posts.md
+        - name: Загрузка файлов
+          items:
+            - name: Обзор
+              href: api/upload/overview.md
+            - name: Загрузка фотографий в альбом
+              href: api/upload/album-photos.md
+            - name: Загрузка фотографии на стену
+              href: api/upload/wall-photo.md
+            - name: Загрузка главной фотографии пользователя или сообщества
+              href: api/upload/main-photo-in-profile.md
+            - name: Загрузка фотографии в личное сообщение
+              href: api/upload/photo-in-message.md
+            - name: Загрузка главной фотографии для чата
+              href: api/upload/main-photo-in-chat.md
+            - name: Загрузка фотографии для товара
+              href: api/upload/photo-in-market.md
+            - name: Загрузка фотографии для подборки товаров
+              href: api/upload/main-photo-in-market.md
+            - name: Загрузка видеозаписи в профиль
+              href: api/upload/video-in-profile.md
+            - name: Загрузка документов
+              href: api/upload/document-in-profile.md
+            - name: Загрузка обложки сообщества
+              href: api/upload/main-photo-in-group.md
+            - name: Загрузка аудиосообщения
+              href: api/upload/audio-record.md
+            - name: Загрузка истории в личные сообщения или новости профиля
+              href: api/upload/story-in-profile.md
+    - name: Сообщества и пользователи
+      items:
+        - name: События в реальном времени
+          href: api/events/overview.md
+        - name: События в сообществах
+          href: api/community-events/json-schema.md
+        - name: Сообщения сообществ
+          href: api/community-messages/getting-started.md
+        - name: Виджеты сообществ
+          href: api/community-apps-widgets/getting-started.md
+        - name: Bots Long Poll API
+          href: api/bots-long-poll/getting-started.md
+        - name: Callback API
+          href: api/callback/getting-started.md
+        - name: User Long Poll API
+          href: api/user-long-poll/getting-started.md
+        - name: Open API
+          href: api/open-api/getting-started.md
+        - name: Сообщение Deprecated version
+          href: api/deprecated-version-message.md
+    - name: Чат-боты
+      items:
+        - name: Боты для сообществ
+          href: api/bots/overview.md
+        - name: Быстрый старт
+          href: api/bots/getting-started.md
+        - name: Разработка
+          items:
+            - name: Сообщения
+              href: api/bots/development/messages.md
+            - name: Клавиатура
+              href: api/bots/development/keyboard.md
+    - name: Платежи
+      items:
+        - name: Платежи голосами ВКонтакте
+          items:
+            - name: Обзор
+              href: api/payments/getting-started.md
+            - name: Платежи за подписки
+              href: api/payments/subscriptions.md
+            - name: Тестирование платежей
+              href: api/payments/testing.md
+            - name: Обработка платёжных уведомлений
+              href: api/payments/notifications/overview.md
+            - name: Уведомления
+              items:
+                - name: get_item
+                  href: api/payments/notifications/get-item.md
+                - name: get_subscription
+                  href: api/payments/notifications/get-subscription.md
+                - name: order_status_change
+                  href: api/payments/notifications/order-status-change.md
+                - name: subscription_status_change
+                  href: api/payments/notifications/subscription-status-change.md
+        - name: VK Donut API
+          href: api/donut/getting-started.md
+    - name: Товары
+      items:
+        - name: Товары ВКонтакте
+          href: api/market/overview.md
+        - name: API для товаров
+          href: api/market/getting-started.md
+    - name: Реклама
+      items:
+        - name: Рекламный API
+          href: api/ads/getting-started.md
+    - name: Истории
+      items:
+        - name: API историй
+          href: api/stories/getting-started.md
+        - name: Стикеры в историях
+          href: api/stories/stickers.md

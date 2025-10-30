@@ -1,67 +1,51 @@
-title: Панель управления
-href: index.yaml
+title: О приложениях
 items:
-- name: Обзор
-  href: settings/overview.md
-- name: Настройки
-  items:
-    - name: Информация
-      href: settings/general/information.md
-    - name: Размещение
-      href: settings/general/placement.md
-    - name: Оформление
-      href: settings/general/design.md
-    - name: Отображение
-      href: settings/general/display.md
-    - name: Правовые документы
-      href: settings/general/legal-docs.md
-    - name: Другие платформы
-      href: settings/general/other-platforms.md
-    - name: Дополнительные
-      href: settings/general/additional.md
-- name: Разработка
-  items:
-    - name: Ключи доступа
-      href: settings/development/keys.md
-    - name: Хранимые процедуры
-      href: settings/development/stored-procedures.md
-- name: Модерация
-  href: settings/moderation.md
-- name: Монетизация
-  href: settings/monetization.md
-- name: Платежи
-  items:
-    - name: Подключение
-      href: settings/payments/setting-up.md
-    - name: Транзакции
-      href: settings/payments/transactions.md
-    - name: Вывод
-      href: settings/payments/withdrawal.md
-- name: Статистика
-  items:
-    - name: Аудитория
-      href: settings/stats/audience.md
-    - name: Платежи
-      href: settings/stats/payments.md
-    - name: Запросы к API
-      href: settings/stats/api-requests.md
-    - name: Рекламная монетизация
-      href: settings/stats/monetization.md
-    - name: Оптимизация
-      href: settings/stats/optimization.md
-- name: Соц. механики
-  items:
-    - name: Уведомления
-      href: settings/social-mechanics/notifications.md
-- name: События приложения
-  href: settings/history.md
-- name: Администраторы
-  href: settings/managers.md
-- name: Доступ к приложению
-  href: settings/access-to-app.md
-- name: Тестовые группы
-  href: settings/test-groups.md
-- name: Помощь
-  href: settings/help.md
-- name: Где используются настройки в интерфейсе ВКонтакте
-  href: settings/design-examples.md
+  - name: Типы приложений
+    href: general/app-types.md
+  - name: Переход на LongID
+    href: general/long-id.md
+  - include: { path: mini-apps/toc-ma.yaml }
+  - include: { path: nocode/toc-nocode.yaml }
+  - include: { path: games/toc-games.yaml }
+  - include: { path: bridge/toc-bridge.yaml }
+  - include: { path: marusia/toc-marusia.yaml }
+  - include: { path: pay/toc-pay.yaml }
+  - include: { path: masks/toc-masks.yaml }
+  - name: Авторизация VK
+    href: vkid  
+  - include: { path: captcha/toc-captcha.yaml }
+  - include: { path: maps/toc-maps.yaml }
+  - include: { path: testers/toc-testers.yaml }
+  - include: { path: libraries/toc-libs.yaml }
+  - name: Правила
+    items:
+      - name: Правила платформы
+        items:
+          - name: На русском языке
+            href: rules.md
+          - name: На казахском языке
+            href: kz/rules.md
+          - name: На узбекском языке
+            href: uz/rules.md
+      - name: Оферта на оказание услуг по привлечению пользователей к Сайту
+        href: apps-offer.md
+      - name: Оферта на оказание услуг по размещению рекламы
+        href: apps-offer-ad.md
+      - name: Правила размещения приложений на платформе VK Mini Apps
+        href: mini-apps-rules.md
+      - name: Условия публикации скиллов Маруси
+        href: marusia-rules.md
+      - name: Правила размещения приложений-магазинов
+        href: market-rules.md
+      - name: Правила для ботов
+        href: bots-rules.md
+      - name: Одобренные способы оплаты
+        href: authorized-payments.md
+      - name: Список документов при регистрации в кабинете выплат
+        href: withdrawal-documents.md
+      - name: Типовая политика конфиденциальности
+        href: privacy-policy.md
+      - name: Типовое пользовательское соглашение
+        href: user-agreement.md
+  - name: Поддержка
+    href: support.md

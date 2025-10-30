@@ -1,0 +1,268 @@
+- name: VK Bridge
+  items:
+    - name: Введение
+      href: bridge/overview.md
+    - name: Первые шаги
+      href: bridge/getting-started.md
+    - name: Работа в фоновом режиме
+      href: bridge/background-mode.md
+    - name: События
+      items:
+        - name: Служебные
+          items:
+            - name: VKWebAppInit
+              href: bridge/VKWebAppInit.md
+            - name: VKWebAppGetLaunchParams
+              href: bridge/VKWebAppGetLaunchParams.md
+            - name: VKWebAppGetClientVersion
+              href: bridge/VKWebAppGetClientVersion.md
+            - name: VKWebAppGetConfig
+              href: bridge/VKWebAppGetConfig.md
+            - name: VKWebAppUpdateConfig
+              href: bridge/VKWebAppUpdateConfig.md
+            - name: VKWebAppCreateHash
+              href: bridge/VKWebAppCreateHash.md
+            - name: VKWebAppCallAPIMethod
+              href: bridge/VKWebAppCallAPIMethod.md
+        - name: Доступы и разрешения
+          items:
+            - name: VKWebAppGetAuthToken
+              href: bridge/VKWebAppGetAuthToken.md
+            - name: VKWebAppGetCommunityToken
+              href: bridge/VKWebAppGetCommunityToken.md
+            - name: VKWebAppCheckAllowedScopes
+              href: bridge/VKWebAppCheckAllowedScopes.md
+            - name: VKWebAppGetGrantedPermissions
+              href: bridge/VKWebAppGetGrantedPermissions.md
+        - name: Внешний вид
+          items:
+            - name: VKWebAppResizeWindow
+              href: bridge/VKWebAppResizeWindow.md
+            - name: VKWebAppSetViewSettings
+              href: bridge/VKWebAppSetViewSettings.md
+        - name: Навигация
+          items:
+            - name: VKWebAppSetLocation
+              href: bridge/VKWebAppSetLocation.md
+            - name: VKWebAppChangeFragment
+              href: bridge/VKWebAppChangeFragment.md
+            - name: VKWebAppLocationChanged
+              href: bridge/VKWebAppLocationChanged.md
+            - name: VKWebAppSetSwipeSettings
+              href: bridge/VKWebAppSetSwipeSettings.md
+            - name: VKWebAppEnableSwipeBack
+              href: bridge/VKWebAppEnableSwipeBack.md
+            - name: VKWebAppDisableSwipeBack
+              href: bridge/VKWebAppDisableSwipeBack.md
+            - name: VKWebAppOpenApp
+              href: bridge/VKWebAppOpenApp.md
+            - name: VKWebAppClose
+              href: bridge/VKWebAppClose.md
+            - name: VKWebAppSendToClient
+              href: bridge/VKWebAppSendToClient.md
+            - name: VKWebAppViewHide
+              href: bridge/VKWebAppViewHide.md
+            - name: VKWebAppViewRestore
+              href: bridge/VKWebAppViewRestore.md
+            - name: VKWebAppScroll
+              href: bridge/VKWebAppScroll.md
+            - name: VKWebAppScrollTop
+              href: bridge/VKWebAppScrollTop.md
+            - name: VKWebAppScrollTopStart
+              href: bridge/VKWebAppScrollTopStart.md
+            - name: VKWebAppScrollTopStop
+              href: bridge/VKWebAppScrollTopStop.md
+        - name: Монетизация
+          items:
+            - name: Реклама
+              items:
+                - name: VKWebAppCheckNativeAds
+                  href: bridge/VKWebAppCheckNativeAds.md
+                - name: VKWebAppShowNativeAds
+                  href: bridge/VKWebAppShowNativeAds.md
+            - name: Баннеры
+              items:
+                - name: VKWebAppShowBannerAd
+                  href: bridge/VKWebAppShowBannerAd.md
+                - name: VKWebAppCheckBannerAd
+                  href: bridge/VKWebAppCheckBannerAd.md
+                - name: VKWebAppBannerAdUpdated
+                  href: bridge/VKWebAppBannerAdUpdated.md
+                - name: VKWebAppHideBannerAd
+                  href: bridge/VKWebAppHideBannerAd.md
+                - name: VKWebAppBannerAdClosedByUser
+                  href: bridge/VKWebAppBannerAdClosedByUser.md
+            - name: Покупки
+              items:
+                - name: VKWebAppShowOrderBox
+                  href: bridge/VKWebAppShowOrderBox.md
+                - name: VKWebAppShowSubscriptionBox
+                  href: bridge/VKWebAppShowSubscriptionBox.md
+                - name: VKWebAppOpenPayForm
+                  href: bridge/VKWebAppOpenPayForm.md
+            - name: Аналитика
+              items:
+                - name: VKWebAppConversionHit
+                  href: bridge/VKWebAppConversionHit.md
+                - name: VKWebAppRetargetingPixel
+                  href: bridge/VKWebAppRetargetingPixel.md
+                - name: VKWebAppTrackEvent
+                  href: bridge/VKWebAppTrackEvent.md
+        - name: Пользователи и сообщества
+          items:
+            - name: Пользователи
+              items:
+                - name: VKWebAppGetEmail
+                  href: bridge/VKWebAppGetEmail.md
+                - name: VKWebAppGetFriends
+                  href: bridge/VKWebAppGetFriends.md
+                - name: VKWebAppGetGeodata
+                  href: bridge/VKWebAppGetGeodata.md
+                - name: VKWebAppGetPersonalCard
+                  href: bridge/VKWebAppGetPersonalCard.md
+                - name: VKWebAppGetPhoneNumber
+                  href: bridge/VKWebAppGetPhoneNumber.md
+                - name: VKWebAppOpenContacts
+                  href: bridge/VKWebAppOpenContacts.md
+                - name: VKWebAppGetUserInfo
+                  href: bridge/VKWebAppGetUserInfo.md
+            - name: Сообщества
+              items:
+                - name: VKWebAppAddToCommunity
+                  href: bridge/VKWebAppAddToCommunity.md
+                - name: VKWebAppAllowMessagesFromGroup
+                  href: bridge/VKWebAppAllowMessagesFromGroup.md
+                - name: VKWebAppGetGroupInfo
+                  href: bridge/VKWebAppGetGroupInfo.md
+                - name: VKWebAppJoinGroup
+                  href: bridge/VKWebAppJoinGroup.md
+                - name: VKWebAppLeaveGroup
+                  href: bridge/VKWebAppLeaveGroup.md
+                - name: VKWebAppSendPayload
+                  href: bridge/VKWebAppSendPayload.md
+                - name: VKWebAppShowCommunityWidgetPreviewBox
+                  href: bridge/VKWebAppShowCommunityWidgetPreviewBox.md
+        - name: Социальные механики и взаимодействие
+          items:
+            - name: VKWebAppAddToFavorites
+              href: bridge/VKWebAppAddToFavorites.md
+            - name: VKWebAppAddToHomeScreen
+              href: bridge/VKWebAppAddToHomeScreen.md
+            - name: VKWebAppAddToHomeScreenInfo
+              href: bridge/VKWebAppAddToHomeScreenInfo.md
+            - name: VKWebAppRecommend
+              href: bridge/VKWebAppRecommend.md
+            - name: VKWebAppShare
+              href: bridge/VKWebAppShare.md
+            - name: VKWebAppShowStoryBox
+              href: bridge/VKWebAppShowStoryBox.md
+            - name: VKWebAppAllowNotifications
+              href: bridge/VKWebAppAllowNotifications.md
+            - name: VKWebAppDenyNotifications
+              href: bridge/VKWebAppDenyNotifications.md
+            - name: VKWebAppAddToChat
+              href: bridge/VKWebAppAddToChat.md
+            - name: VKWebAppOpenWallPost
+              href: bridge/VKWebAppOpenWallPost.md
+            - name: VKWebAppShowInviteBox
+              href: bridge/VKWebAppShowInviteBox.md
+            - name: VKWebAppShowLeaderBoardBox
+              href: bridge/VKWebAppShowLeaderBoardBox.md
+            - name: VKWebAppShowRequestBox
+              href: bridge/VKWebAppShowRequestBox.md
+            - name: VKWebAppKeepScreenOn
+              href: bridge/VKWebAppKeepScreenOn.md
+            - name: VKWebAppScreenshotTaken
+              href: bridge/VKWebAppScreenshotTaken.md
+        - name: Текст и медиафайлы
+          items:
+            - name: VKWebAppCopyText
+              href: bridge/VKWebAppCopyText.md
+            - name: VKWebAppDownloadFile
+              href: bridge/VKWebAppDownloadFile.md
+            - name: VKWebAppOpenCodeReader
+              href: bridge/VKWebAppOpenCodeReader.md
+            - name: VKWebAppShowSlidesSheet
+              href: bridge/VKWebAppShowSlidesSheet.md
+            - name: VKWebAppShowImages
+              href: bridge/VKWebAppShowImages.md
+            - name: VKWebAppTranslate
+              href: bridge/VKWebAppTranslate.md
+        - name: Хранилище VK Storage
+          items:
+            - name: VKWebAppStorageSet
+              href: bridge/VKWebAppStorageSet.md
+            - name: VKWebAppStorageGet
+              href: bridge/VKWebAppStorageGet.md
+            - name: VKWebAppStorageGetKeys
+              href: bridge/VKWebAppStorageGetKeys.md
+        - name: Звонки
+          items:
+            - name: Позвонить пользователю
+              href: bridge/call.md
+            - name: VKWebAppCallStart
+              href: bridge/VKWebAppCallStart.md
+            - name: VKWebAppCallJoin
+              href: bridge/VKWebAppCallJoin.md
+            - name: VKWebAppCallGetStatus
+              href: bridge/VKWebAppCallGetStatus.md
+            - name: VKWebAppCallLeft
+              href: bridge/VKWebAppCallLeft.md
+            - name: VKWebAppCallFinished
+              href: bridge/VKWebAppCallFinished.md
+        - name: Мобильные устройства
+          items:
+            - name: Аутентификация
+              items:
+                - name: VKWebAppSecureTokenRequestAccess
+                  href: bridge/VKWebAppSecureTokenRequestAccess.md
+                - name: VKWebAppSecureTokenSet
+                  href: bridge/VKWebAppSecureTokenSet.md
+                - name: VKWebAppSecureTokenGet
+                  href: bridge/VKWebAppSecureTokenGet.md
+                - name: VKWebAppSecureTokenGetInfo
+                  href: bridge/VKWebAppSecureTokenGetInfo.md
+                - name: VKWebAppSecureTokenRemove
+                  href: bridge/VKWebAppSecureTokenRemove.md
+            - name: Виброотклик
+              items:
+                - name: VKWebAppTapticImpactOccurred
+                  href: bridge/VKWebAppTapticImpactOccurred.md
+                - name: VKWebAppTapticNotificationOccurred
+                  href: bridge/VKWebAppTapticNotificationOccurred.md
+                - name: VKWebAppTapticSelectionChanged
+                  href: bridge/VKWebAppTapticSelectionChanged.md
+            - name: Фонарик
+              items:
+                - name: VKWebAppFlashGetInfo
+                  href: bridge/VKWebAppFlashGetInfo.md
+                - name: VKWebAppFlashSetLevel
+                  href: bridge/VKWebAppFlashSetLevel.md
+            - name: Акселерометр
+              items:
+                - name: VKWebAppAccelerometerStart
+                  href: bridge/VKWebAppAccelerometerStart.md
+                - name: VKWebAppAccelerometerStop
+                  href: bridge/VKWebAppAccelerometerStop.md
+            - name: Положение в пространстве
+              items:
+                - name: VKWebAppDeviceMotionStart
+                  href: bridge/VKWebAppDeviceMotionStart.md
+                - name: VKWebAppDeviceMotionStop
+                  href: bridge/VKWebAppDeviceMotionStop.md
+            - name: Гироскоп
+              items:
+                - name: VKWebAppGyroscopeStart
+                  href: bridge/VKWebAppGyroscopeStart.md
+                - name: VKWebAppGyroscopeStop
+                  href: bridge/VKWebAppGyroscopeStop.md
+            - name: Данные о физической активности
+              items:
+                - name: VKWebAppAskWorkoutsPermissions
+                  href: bridge/VKWebAppAskWorkoutsPermissions.md
+                - name: VKWebAppGetWorkouts
+                  href: bridge/VKWebAppGetWorkouts.md
+                - name: VKWebAppGetWorkoutsPermissions
+                  href: bridge/VKWebAppGetWorkoutsPermissions.md
+                - name: VKWebAppWorkoutsSyncCompleted
+                  href: bridge/VKWebAppWorkoutsSyncCompleted.md

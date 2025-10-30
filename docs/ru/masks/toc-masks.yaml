@@ -1,0 +1,132 @@
+  - name: Маски
+    items:
+      - name: Платформа
+        href: masks/overview
+      - name: Первые шаги
+        href: masks/getting-started
+      - name: Примеры
+        href: masks/examples
+      - name: Подготовка
+        items:
+          - name: Инструменты
+            href: masks/tools
+          - name: Просмотр маски
+            href: masks/view
+          - name: Экспорт 3D-модели
+            href: masks/export
+      - name: Создание
+        items:
+          - name: Конфигурационный файл
+            href: masks/configuration
+          - name: Эффекты
+            items:
+              - name: Обзор
+                href: masks/effects/overview
+              - name: facemodel
+                href: masks/effects/facemodel
+              - name: patch
+                href: masks/effects/patch
+              - name: plane
+                href: masks/effects/plane
+              - name: colorfilter
+                href: masks/effects/colorfilter
+              - name: beautify
+                href: masks/effects/beautify
+              - name: liquifiedwarp
+                href: masks/effects/liquifiedwarp
+              - name: posteffect
+                href: masks/effects/posteffect
+              - name: copyface
+                href: masks/effects/copyface
+              - name: pasteface
+                href: masks/effects/pasteface
+              - name: model3d
+                href: masks/effects/model3d
+              - name: occluder
+                href: masks/effects/occluder
+              - name: light
+                href: masks/effects/light
+              - name: Сегментация
+                href: masks/effects/segmentation
+              - name: Способы указания размера и смещения
+                href: masks/effects/size-offset
+          - name: Плагины
+            items:
+              - name: Обзор
+                href: masks/plugins/overview
+              - name: customhint
+                href: masks/plugins/customhint
+              - name: fixeddetection
+                href: masks/plugins/fixeddetection
+              - name: maskswitching
+                href: masks/plugins/maskswitching
+              - name: parallax
+                href: masks/plugins/parallax
+              - name: particles
+                href: masks/plugins/particles
+              - name: perspective
+                href: masks/plugins/perspective
+              - name: pickerui
+                href: masks/plugins/pickerui
+              - name: randomtest
+                href: masks/plugins/randomtest
+              - name: spinner3d
+                href: masks/plugins/spinner3d
+              - name: wiggle
+                href: masks/plugins/wiggle
+          - name: Анимация в масках
+            items:
+              - name: Обзор
+                href: masks/animation/overview
+              - name: Анимация текстур
+                href: masks/animation/textures
+              - name: Анимация 3D-моделей
+                href: masks/animation/models
+      - name: Продвинутые возможности
+        items:
+          - name: Обзор возможностей
+            href: masks/development/overview
+          - name: Скрипты
+            items:
+              - name: Создание скриптов
+                href: masks/development/script-creation
+              - name: Создание плагинов
+                href: masks/development/plugin-creation
+              - name: События
+                items:
+                  - name: Обзор
+                    href: masks/development/events/overview
+                  - name: MouseEvent
+                    href: masks/development/events/MouseEvent
+                  - name: MouthTrigger
+                    href: masks/development/events/MouthTrigger
+                  - name: PostUpdate
+                    href: masks/development/events/PostUpdate
+                  - name: SrcFrameUpdate
+                    href: masks/development/events/SrcFrameUpdate
+                  - name: Update
+                    href: masks/development/events/Update
+                  - name: UpdateFaceDetected
+                    href: masks/development/events/UpdateFaceDetected
+                  - name: UpdateFacePOI
+                    href: masks/development/events/UpdateFacePOI
+                  - name: UpdateHandGesture
+                    href: masks/development/events/UpdateHandGesture
+          - name: Встроенные ресурсы
+            href: masks/development/assets
+          - name: Дерево сцены
+            href: masks/development/scenes
+      - name: Публикация
+        items:
+          - name: Уровни доступа
+            href: masks/publication/overview
+          - name: Как пройти модерацию
+            href: masks/publication/moderation
+          - name: Подготовка ресурсов проекта
+            href: masks/publication/resources
+          - name: Оптимизация
+            href: masks/publication/optimization
+          - name: Тестирование
+            href: masks/publication/testing
+          - name: Просмотр статистики
+            href: masks/publication/stats

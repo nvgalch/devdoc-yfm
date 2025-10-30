@@ -1,0 +1,216 @@
+- name: Игры
+  items:
+    - name: Игровая платформа
+      href: games/overview.md
+    - name: Преимущества для разработчиков и издателей
+      href: games/benefits.md
+    - name: Советы по созданию и продвижению
+      href: games/catalog/advice.md
+    - name: Первые шаги
+      href: games/getting-started.md
+    - name: Разработка
+      items:
+        - name: Библиотека VK Bridge
+          href: games/bridge.md
+        - name: Доступ к игре
+          href: games/access.md
+        - name: Параметры запуска
+          items:
+            - name: Список параметров
+              href: games/development/parameters.md
+            - name: Значения параметра vk_ref
+              href: games/development/parameters/vk_ref.md
+        - name: Подпись параметров запуска
+          href: games/development/parameters-sign.md
+        - name: Экран запуска
+          href: games/development/launch-screen.md
+        - name: Управление группами тестировщиков
+          href: games/development/testing.md
+        - name: Хостинг статики
+          items:
+            - name: Обзор
+              href: games/development/hosting/overview.md
+            - name: Файл vk-hosting-config.json
+              href: games/development/hosting/config-file.md
+            - name: Добавление файлов на хостинг из автоматических сборок
+              href: games/development/hosting/ci.md
+        - name: Отладка
+          href: games/development/debugging.md
+        - name: API-вызовы
+          href: games/development/api-calls.md
+        - name: Обработка событий сворачивания и восстановления экрана игры
+          href: games/how-to/handle-minimize-and-restore-events.md
+        - name: Работа кеша приложений
+          href: games/development/cache.md
+    - name: Каталоги
+      items:
+        - name: Обзор
+          href: games/catalog/overview.md
+        - name: Как попасть в каталог
+          href: games/catalog/moderation.md
+    - name: Продвижение
+      items:
+        - name: Подборки игр в каталоге
+          items:
+            - name: Обзор
+              href: games/promotion/featured.md
+            - name: Десктопная версия сайта
+              href: games/promotion/featured/desktop.md
+            - name: Android
+              href: games/promotion/featured/android.md
+            - name: iOS
+              href: games/promotion/featured/ios.md
+            - name: Мобильная версия сайта
+              href: games/promotion/featured/mvk.md
+        - name: Игровые и социальные механики
+          items:
+            - name: Обзор
+              href: games/promotion/game-mechanics/overview.md
+            - name: Добавление игры на главный экран устройства
+              href: games/promotion/game-mechanics/add-to-home-screen.md
+            - name: Добавление Web-игры в левое меню
+              href: games/promotion/game-mechanics/add-to-menu.md
+            - name: Приглашения
+              href: games/promotion/game-mechanics/invites.md
+            - name: Запросы
+              href: games/promotion/game-mechanics/requests.md
+            - name: Истории в профиле пользователя
+              href: games/promotion/game-mechanics/stories.md
+            - name: Поделиться игрой
+              href: games/promotion/game-mechanics/share.md
+            - name: Личные сообщения от игры
+              href: games/promotion/game-mechanics/messages.md
+            - name: Уведомления
+              items:
+                - name: Обзор
+                  href: games/promotion/game-mechanics/notifications/overview.md
+                - name: Разовые
+                  href: games/promotion/game-mechanics/notifications/single.md
+                - name: Неактивным пользователям
+                  href: games/promotion/game-mechanics/notifications/automatic.md
+                - name: Всем пользователям
+                  href: games/promotion/game-mechanics/notifications/mass.md
+            - name: Лента активности друзей
+              href: games/promotion/game-mechanics/feed.md
+            - name: Уровни
+              href: games/promotion/game-mechanics/levels.md
+            - name: Очки
+              href: games/promotion/game-mechanics/scores.md
+            - name: Игровые события
+              href: games/promotion/game-mechanics/events.md
+            - name: Миссии
+              href: games/promotion/game-mechanics/missions.md
+            - name: Турнирные таблицы
+              href: games/promotion/game-mechanics/leaderboards.md
+            - name: Сниппеты игр
+              href: games/promotion/game-mechanics/snippets.md
+        - name: Рекламные объявления
+          href: games/promotion/ad.md
+    - name: Монетизация
+      items:
+        - name: Продажа игровых товаров
+          href: games/monetization/digital-goods.md
+        - name: Реклама в играх
+          items:
+            - name: Обзор
+              href: games/monetization/ad/overview.md
+            - name: Как добавить рекламу в игру
+              href: games/monetization/ad/implementation.md
+            - name: Баннерная реклама
+              href: games/monetization/ad/banners.md
+            - name: Рекомендации по показу рекламы
+              href: games/monetization/ad/recommendations.md
+        - name: Лучшие практики
+          href: games/monetization/best-practices.md
+        - name: Вывод средств
+          items:
+            - name: Обзор
+              href: games/monetization/withdrawal/overview.md
+            - name: Юрлица и ИП — Россия
+              href: games/monetization/withdrawal/ru-companies.md
+            - name: Самозанятые — Россия
+              href: games/monetization/withdrawal/ru-self-employed.md
+            - name: Физические лица — Россия
+              href: games/monetization/withdrawal/ru-individuals.md
+            - name: Зарубежные авторы
+              href: games/monetization/withdrawal/foreign-companies.md
+    - name: Панель управления
+      items:
+        - name: Обзор
+          href: games/settings/overview.md
+        - name: Настройки
+          items:
+            - name: Информация
+              href: games/settings/general/information.md
+            - name: Размещение
+              href: games/settings/general/placement.md
+            - name: Оформление
+              href: games/settings/general/design.md
+            - name: Отображение
+              href: games/settings/general/display.md
+            - name: Правовые документы
+              href: games/settings/general/legal-docs.md
+            - name: Дополнительные
+              href: games/settings/general/additional.md
+        - name: Разработка
+          items:
+            - name: Ключи доступа
+              href: games/settings/development/keys.md
+            - name: Хранимые процедуры
+              href: games/settings/development/stored-procedures.md
+        - name: Модерация
+          href: games/settings/moderation.md
+        - name: Монетизация
+          href: games/settings/monetization.md
+        - name: Платежи
+          items:
+            - name: Подключение
+              href: games/settings/payments/setting-up.md
+            - name: Транзакции
+              href: games/settings/payments/transactions.md
+            - name: Вывод
+              href: games/settings/payments/withdrawal.md
+        - name: Статистика
+          items:
+            - name: Аудитория
+              href: games/settings/stats/audience.md
+            - name: Платежи
+              href: games/settings/stats/payments.md
+            - name: Рекламная монетизация
+              href: games/settings/stats/monetization.md
+            - name: Запросы к API
+              href: games/settings/stats/api-requests.md
+            - name: Рейтинг популярности
+              href: games/settings/stats/popularity-rating.md
+        - name: Соц. механики
+          items:
+            - name: Уведомления
+              href: games/settings/social-mechanics/notifications.md
+            - name: Игровые события
+              href: games/settings/social-mechanics/events.md
+            - name: Миссии
+              href: games/settings/social-mechanics/missions.md
+        - name: События приложения
+          href: games/settings/history.md
+        - name: Администраторы
+          href: games/settings/managers.md
+        - name: Доступ к приложению
+          href: games/settings/access-to-app.md
+        - name: Тестовые группы
+          href: games/settings/test-groups.md
+        - name: Помощь
+          href: games/settings/help.md
+        - name: Где используются настройки в интерфейсе ВКонтакте
+          href: games/settings/design-examples.md
+    - name: Частые вопросы
+      href: games/faq.md
+    - name: Техническая поддержка
+      href: games/support.md
+    - name: Архив
+      items:
+        - name: Изменения в играх от 8 августа 2024 года
+          href: games/changes.md
+        - name: Параметры запуска
+          href: games/development/parameters/old.md
+        - name: Права доступа
+          href: games/development/permissions.md

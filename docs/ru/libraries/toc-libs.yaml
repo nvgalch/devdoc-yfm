@@ -1,0 +1,142 @@
+- name: Библиотеки
+  items:
+    - name: VK Tunnel
+      href: libraries/tunnel.md
+    - name: VKUI
+      href: libraries/vkui.md
+    - name: vk-mini-apps-router
+      items:
+        - name: Обзор
+          href: libraries/router.md
+        - name: Установка и подключение
+          href: libraries/router/setup.md
+        - name: Настройка маршрутов
+          href: libraries/router/setting-routes.md
+        - name: Типы роутеров
+          href: libraries/router/router-types.md
+        - name: Навигация в приложении
+          href: libraries/router/navigation.md
+        - name: История навигации
+          href: libraries/router/navigation-history.md
+        - name: Блокировка навигации
+          href: libraries/router/blocking-navigation.md
+        - name: Формат внешних и внутренних ссылок
+          href: libraries/router/hash-in-links.md
+        - name: Использование параметров
+          href: libraries/router/parameters.md
+        - name: Поддержка модальных и всплывающих окон
+          href: libraries/router/modal-windows.md
+        - name: Поддержка анимации
+          href: libraries/router/animation.md
+        - name: Обработка ошибок
+          href: libraries/router/handling-errors.md
+        - name: Справочник
+          items:
+            - name: Обзор
+              href: libraries/router/reference.md
+            - name: Компоненты
+              items:
+                - name: RouterLink
+                  href: libraries/router/reference/components/RouterLink.md
+                - name: RouterProvider
+                  href: libraries/router/reference/components/RouterProvider.md
+            - name: Функции
+              items:
+                - name: createBrowserRouter
+                  href: libraries/router/reference/functions/createBrowserRouter.md
+                - name: createHashParamRouter
+                  href: libraries/router/reference/functions/createHashParamRouter.md
+                - name: createHashRouter
+                  href: libraries/router/reference/functions/createHashRouter.md
+            - name: Hooks
+              items:
+                - name: useActiveVkuiLocation
+                  href: libraries/router/reference/hooks/useActiveVkuiLocation.md
+                - name: useBlocker
+                  href: libraries/router/reference/hooks/useBlocker.md
+                - name: useEnableSwipeBack
+                  href: libraries/router/reference/hooks/useEnableSwipeBack.md
+                - name: useFirstPageCheck
+                  href: libraries/router/reference/hooks/useFirstPageCheck.md
+                - name: useGetPanelForView
+                  href: libraries/router/reference/hooks/useGetPanelForView.md
+                - name: useHistoryManager
+                  href: libraries/router/reference/hooks/useHistoryManager.md
+                - name: useHref
+                  href: libraries/router/reference/hooks/useHref.md
+                - name: useLinkClickHandler
+                  href: libraries/router/reference/hooks/useLinkClickHandler.md
+                - name: useMetaParams
+                  href: libraries/router/reference/hooks/useMetaParams.md
+                - name: useParams
+                  href: libraries/router/reference/hooks/useParams.md
+                - name: usePopout
+                  href: libraries/router/reference/hooks/usePopout.md
+                - name: useRouteNavigator
+                  href: libraries/router/reference/hooks/useRouteNavigator.md
+                - name: useSearchParams
+                  href: libraries/router/reference/hooks/useSearchParams.md
+            - name: Объекты
+              items:
+                - name: HistoryManager
+                  items:
+                    - name: Объект
+                      href: libraries/router/reference/objects/HistoryManager.md
+                    - name: getCurrentPosition
+                      href: libraries/router/reference/objects/HistoryManager/getCurrentPosition.md
+                    - name: getHistory
+                      href: libraries/router/reference/objects/HistoryManager/getHistory.md
+                - name: NavigationOptions
+                  href: libraries/router/reference/objects/NavigationOptions.md
+                - name: RouteNavigator
+                  items:
+                    - name: Объект
+                      href: libraries/router/reference/objects/RouteNavigator.md
+                    - name: back
+                      href: libraries/router/reference/objects/RouteNavigator/back.md
+                    - name: backToFirst
+                      href: libraries/router/reference/objects/RouteNavigator/backToFirst.md
+                    - name: block
+                      href: libraries/router/reference/objects/RouteNavigator/block.md
+                    - name: go
+                      href: libraries/router/reference/objects/RouteNavigator/go.md
+                    - name: hideModal
+                      href: libraries/router/reference/objects/RouteNavigator/hideModal.md
+                    - name: hidePopout
+                      href: libraries/router/reference/objects/RouteNavigator/hidePopout.md
+                    - name: push
+                      href: libraries/router/reference/objects/RouteNavigator/push.md
+                    - name: replace
+                      href: libraries/router/reference/objects/RouteNavigator/replace.md
+                    - name: runSync
+                      href: libraries/router/reference/objects/RouteNavigator/runSync.md
+                    - name: showModal
+                      href: libraries/router/reference/objects/RouteNavigator/showModal.md
+                    - name: showPopout
+                      href: libraries/router/reference/objects/RouteNavigator/showPopout.md
+                - name: RouteWithoutRoot
+                  href: libraries/router/reference/objects/RouteWithoutRoot.md
+                - name: RouteWithRoot
+                  href: libraries/router/reference/objects/RouteWithRoot.md
+    - name: VK QR
+      href: libraries/vk-qr.md
+    - name: Работа с open-source библиотеками ВКонтакте
+      href: libraries/working-with-open-source-libraries.md
+    - name: SDK
+      items:
+        - name: Обзор SDK
+          href: sdk/overview.md
+        - name: Java SDK
+          href: sdk/java.md
+        - name: Android SDK
+          href: sdk/android.md
+        - name: iOS SDK
+          href: sdk/ios.md
+        - name: PHP SDK
+          href: sdk/php.md
+        - name: Поддержка прекращена
+          items:
+            - name: JavaScript SDK
+              href: sdk/javascript.md
+            - name: Mobile SDK
+              href: sdk/mobile.md

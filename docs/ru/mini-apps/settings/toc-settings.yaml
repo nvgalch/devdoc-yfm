@@ -1,0 +1,67 @@
+title: Панель управления
+href: index.yaml
+items:
+- name: Обзор
+  href: overview.md
+- name: Настройки
+  items:
+    - name: Информация
+      href: general/information.md
+    - name: Размещение
+      href: general/placement.md
+    - name: Оформление
+      href: general/design.md
+    - name: Отображение
+      href: general/display.md
+    - name: Правовые документы
+      href: general/legal-docs.md
+    - name: Другие платформы
+      href: general/other-platforms.md
+    - name: Дополнительные
+      href: general/additional.md
+- name: Разработка
+  items:
+    - name: Ключи доступа
+      href: development/keys.md
+    - name: Хранимые процедуры
+      href: development/stored-procedures.md
+- name: Модерация
+  href: moderation.md
+- name: Монетизация
+  href: monetization.md
+- name: Платежи
+  items:
+    - name: Подключение
+      href: payments/setting-up.md
+    - name: Транзакции
+      href: payments/transactions.md
+    - name: Вывод
+      href: payments/withdrawal.md
+- name: Статистика
+  items:
+    - name: Аудитория
+      href: stats/audience.md
+    - name: Платежи
+      href: stats/payments.md
+    - name: Запросы к API
+      href: stats/api-requests.md
+    - name: Рекламная монетизация
+      href: stats/monetization.md
+    - name: Оптимизация
+      href: stats/optimization.md
+- name: Соц. механики
+  items:
+    - name: Уведомления
+      href: social-mechanics/notifications.md
+- name: События приложения
+  href: history.md
+- name: Администраторы
+  href: managers.md
+- name: Доступ к приложению
+  href: access-to-app.md
+- name: Тестовые группы
+  href: test-groups.md
+- name: Помощь
+  href: help.md
+- name: Где используются настройки в интерфейсе ВКонтакте
+  href: design-examples.md
